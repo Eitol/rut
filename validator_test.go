@@ -44,7 +44,7 @@ func TestValidate(t *testing.T) {
 			args: args{
 				rut: "f473297-7",
 			},
-			wantErr: ErrInvalidNumber,
+			wantErr: ErrInvalidRunNumber,
 		},
 		{
 			name: "valid_with_spaces",
